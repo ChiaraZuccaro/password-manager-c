@@ -21,6 +21,7 @@ The program can be compiled as a native executable or converted to **WebAssembly
 ---
 
 ## Project Structure
+```bash
 password-manager-c/
 ├── src/
 │ ├── main.c # Entry point of the program
@@ -30,14 +31,17 @@ password-manager-c/
 ├── Makefile # Build instructions
 ├── build/ # Optional folder for compiled binaries
 └── wasm/ # Output folder for WebAssembly build
+```
 
 ---
 
 ## Technologies
-- Language: **C (C11 standard)**
-- Storage: **Binary file I/O**
-- Modular design: structs, header files, separated source files
-- Future-ready: **WebAssembly (WASM) integration for web applications**
+- **C Programming (C11 standard)**
+- **Memory management** with dynamic arrays
+- **File I/O** for persistent storage
+- Modular architecture using **structs and header files**
+- **Future-ready** for WebAssembly integration
+- Command-line interface design and usability
 
 ---
 
@@ -47,7 +51,7 @@ password-manager-c/
 make ./password_manager
 ```
 
-##Clean Build
+## Clean Build
 ```bash
 make clean
 ```
