@@ -29,9 +29,9 @@ password-manager-c/
 │ ├── storage.c # Memory and file I/O management
 │ ├── menu.c # Menu and user interaction
 ├── include
-| ├── app.h
-| ├── menu.h
-| ├── storage.h
+│ ├── app.h
+│ ├── menu.h
+│ ├── storage.h
 ├── build/ # Optional folder for compiled binaries
 ├── Makefile # Build instructions
 └── wasm/ # Output folder for WebAssembly build
