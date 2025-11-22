@@ -25,11 +25,15 @@ The program can be compiled as a native executable or converted to **WebAssembly
 password-manager-c/
 ├── src/
 │ ├── main.c # Entry point of the program
-│ ├── app.c/h # Main application logic
-│ ├── storage.c/h # Memory and file I/O management
-│ ├── menu.c/h # Menu and user interaction
-├── Makefile # Build instructions
+│ ├── app.c # Main application logic
+│ ├── storage.c # Memory and file I/O management
+│ ├── menu.c # Menu and user interaction
+├── include
+| ├── app.h
+| ├── menu.h
+| ├── storage.h
 ├── build/ # Optional folder for compiled binaries
+├── Makefile # Build instructions
 └── wasm/ # Output folder for WebAssembly build
 ```
 
